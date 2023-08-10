@@ -22,7 +22,8 @@
                     {
                         "type": "css",
                         "target": {
-                            "selector": ".nd:pb-2xl"
+                            "selector": ".nd:visible.nd:pb-2xl",
+                            "displayFilter": true
                         }
                     }
                 ]
