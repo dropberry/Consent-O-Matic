@@ -18,6 +18,12 @@
                             "selector": "section a[href=\"https://www.redditinc.com/policies/cookie-notice\"]",
                             "displayFilter": true
                         }
+                    },
+                    {
+                        "type": "css",
+                        "target": {
+                            "selector": "cookie-banner-text"
+                        }
                     }
                 ]
             }
