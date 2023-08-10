@@ -68,7 +68,7 @@
                 "action": {
                     "type": "foreach",
                     "target": {
-                        "selector": ".wt-pt-xl-6.wt-display-flex-xl"
+                        "selector": ".wt-pt-x-3"
                     },
                     "action": {
                         "type": "list",
@@ -80,13 +80,13 @@
                                         "matcher": {
                                             "type": "checkbox",
                                             "target": {
-                                                "selector": "#personalization"
+                                                "selector": "#personalization_consent"
                                             }
                                         },
                                         "toggleAction": {
                                             "type": "click",
                                             "target": {
-                                                "selector": "#personalization"
+                                                "selector": "#personalization_consent"
                                             }
                                         },
                                         "type": "A"
