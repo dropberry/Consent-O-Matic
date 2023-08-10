@@ -68,7 +68,7 @@
                 "action": {
                     "type": "foreach",
                     "target": {
-                        "selector": ".wt-pt-xl-6.wt-display-flex-xl"
+                        "selector": ".wt-pt-xl-6.wt-display-flex-xl",
                     },
                 },
                 "name": "DO_CONSENT"
