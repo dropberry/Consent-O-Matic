@@ -22,7 +22,7 @@
                     {
                         "type": "css",
                         "target": {
-                            "selector": "cookie-banner-text"
+                            "selector": ".nd:pb-2xl"
                         }
                     }
                 ]
