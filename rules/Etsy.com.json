@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules.schema.json",
+    "$schema": "https://raw.githubusercontent.com/dropberry/Consent-O-Matic/master/rules.schema.json",
     "Etsy.com": {
         "detectors": [
             {
@@ -68,53 +68,8 @@
                 "action": {
                     "type": "foreach",
                     "target": {
-                        "selector": ".wt-pt-x-3"
+                        "selector": ".wt-pt-xl-6.wt-display-flex-xl"
                     },
-                    "action": {
-                        "type": "list",
-                        "actions": [
-                            {
-                                "type": "consent",
-                                "consents": [
-                                    {
-                                        "matcher": {
-                                            "type": "checkbox",
-                                            "target": {
-                                                "selector": "#personalization_consent"
-                                            }
-                                        },
-                                        "toggleAction": {
-                                            "type": "click",
-                                            "target": {
-                                                "selector": "#personalization_consent"
-                                            }
-                                        },
-                                        "type": "A"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "consent",
-                                "consents": [
-                                    {
-                                        "matcher": {
-                                            "type": "checkbox",
-                                            "target": {
-                                                "selector": "#third_party_consent"
-                                            }
-                                        },
-                                        "toggleAction": {
-                                            "type": "click",
-                                            "target": {
-                                                "selector": "#third_party_consent"
-                                            }
-                                        },
-                                        "type": "F"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
                 },
                 "name": "DO_CONSENT"
             },
