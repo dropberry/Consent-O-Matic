@@ -7,11 +7,18 @@
                     {
                         "type": "css",
                         "target": {
-                            "selector": "reddit-cookie-banner.nd:visible.nd:pb-2xl"
+                            "selector": "section a[href=\"https://www.redditinc.com/policies/cookie-notice\"]"
                         }
                     }
                 ],
                 "showingMatcher": [
+                    {
+                        "type": "css",
+                        "target": {
+                            "selector": "section a[href=\"https://www.redditinc.com/policies/cookie-notice\"]",
+                            "displayFilter": true
+                        }
+                    },
                     {
                         "type": "css",
                         "target": {
